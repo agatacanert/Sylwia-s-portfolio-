@@ -88,11 +88,11 @@ section{
 	top: 33%;
 	left: 33%;
 	width: 30%;
+	box-sizing: border-box;
 	display: flex;
 	height: 30%;
 	flex-direction: column;
     flex-wrap: wrap;
-
 }
 
 .blue {
@@ -104,16 +104,22 @@ section{
 }
 
 .name {
-	align-self: stretch;
-	height: 100%;
+	 align-self: stretch;
+	 height: 100%;
+	 margin-right: 2%;
+	 font-family: 'Montserrat', sans-serif;
+	 order: 0;
+
 }
 
 .name p {
-	 writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  white-space: nowrap;
-  display: inline-block;
-  overflow: visible
+	writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    display: inline-block;
+    overflow: visible;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .line {
@@ -121,9 +127,29 @@ section{
 	height: 100%;
 	width: 2px;
 	padding: 0;
+	order: 1;
 }
 
+.art{
+	width: 80%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	order: 2;
+}
 
+.ampersand {
+	width: 5%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	order: 3;
+}
+
+.set{
+	width: 80%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	order: 4;
+}
 
 
 
